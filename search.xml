@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>文章模版</title>
+    <url>/2024/09/21/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>交换机固件</title>
     <url>/2024/09/23/%E5%9B%BA%E4%BB%B6%E4%B8%8B%E8%BD%BD_%E4%BA%A4%E6%8D%A2%E6%9C%BA%E5%9B%BA%E4%BB%B6/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -23,24 +41,6 @@
       <tags>
         <tag>交换机固件</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>文章模版</title>
-    <url>/2024/09/21/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>服务器固件</title>
@@ -397,28 +397,41 @@
       </tags>
   </entry>
   <entry>
-    <title>月盾服务器文档</title>
-    <url>/2024/09/23/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3_%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9B%B8%E5%85%B3_%E6%9C%88%E7%9B%BE/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
+    <title>月盾服务器</title>
+    <url>/2024/09/25/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3_%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9B%B8%E5%85%B3_%E6%9C%88%E7%9B%BE/</url>
+    <content><![CDATA[<h2 id="月盾8801服务器"><a href="#月盾8801服务器" class="headerlink" title="月盾8801服务器"></a>月盾8801服务器</h2><p>前言：<br>8801服务器 通电后 开关按钮会黄灯闪烁（自检）几分钟后等黄灯常亮 就可以按开关键开机<br>如果只插一根电源线 开关右侧的灯会显示红色（不影响使用）</p>
+<h3 id="1-制作U盘PE启动系统"><a href="#1-制作U盘PE启动系统" class="headerlink" title="1. 制作U盘PE启动系统"></a>1. 制作U盘PE启动系统</h3><pre><code>   准备一个U盘（注意：不能用闪迪的u盘） 制作一个最新版本的“小兵“或者”优启通“ U盘PE系统（制作教程）
+</code></pre>
+<h3 id="2-设置BIOS"><a href="#2-设置BIOS" class="headerlink" title="2. 设置BIOS"></a>2. 设置BIOS</h3><pre><code> 插上U盘和系统盘（注意：其他硬盘先不要接）开机 按键盘“del”键进主板BIOS ----&gt;boot选项 
+ 设置：
+ Boot option #1 选择 USB Device  
+ Boot option #2 选择 Hard Disk
+ 按“F4”  回车保存重启， 进PE系统 
+</code></pre>
+<p>   <img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/image-20240926003035553.png"></p>
+<h3 id="3-分区格式化硬盘"><a href="#3-分区格式化硬盘" class="headerlink" title="3. 分区格式化硬盘"></a>3. 分区格式化硬盘</h3><pre><code>  进到PE系统后 点开桌面的分区工具 DiskGenius
+  选择左侧需要作为系统盘的硬盘点上方的快速分区----&gt;分区表类型选择右边的 “guid”
+</code></pre>
+<p>   <img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/image-20240926003949574.png" alt="image-20240926003949574"></p>
+<p>   <img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/image-20240926004254442.png"></p>
+<p>   <img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/image-20240926005041068.png" alt="image-20240926005041068"></p>
+<h3 id="4-恢复系统"><a href="#4-恢复系统" class="headerlink" title="4. 恢复系统"></a>4. 恢复系统</h3><pre><code>  格式化硬盘后 运行桌面的“小兵系统安装” 选择“重装系统”，选择镜像文件 点右下角的确定安装
+</code></pre>
+<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/image-20240926010433643.png" alt="image-20240926010433643"></p>
+<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/image-20240926010552311.png" alt="image-20240926010552311"></p>
+<h3 id="5-重启"><a href="#5-重启" class="headerlink" title="5. 重启"></a>5. 重启</h3><pre><code>  系统恢复完后程序会自动修复uefi引导分区 并加载nvme raid等驱动（不加载 重启后启动会蓝屏），并提示自动重启 电脑重启后 拔掉u盘  这个时候自动会选择硬盘引导启动（不需要再进主板bios设置了），安装过程会自动重启2次中间不需要操作任何东西 安装完后 关机 接上其他的硬盘 
+</code></pre>
+<h3 id="6-格式化其他硬盘"><a href="#6-格式化其他硬盘" class="headerlink" title="6. 格式化其他硬盘"></a>6. 格式化其他硬盘</h3><pre><code> 打开计算机管理---&gt;存储---&gt;磁盘管理  选择要格式化的硬盘 分配单元大小 选择“64K”（无盘软件游戏盘出盘会快很多）
+</code></pre>
+<p>​    </p>
+<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/image-20240926012231283.png" alt="image-20240926012231283"></p>
+<h2 id="月盾其他服务器"><a href="#月盾其他服务器" class="headerlink" title="月盾其他服务器"></a>月盾其他服务器</h2>]]></content>
       <categories>
         <category>技术文档</category>
         <category>服务器相关</category>
       </categories>
       <tags>
-        <tag>服务器文档</tag>
+        <tag>月盾服务器</tag>
       </tags>
   </entry>
   <entry>
