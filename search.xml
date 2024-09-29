@@ -713,7 +713,7 @@ display fan  //查看风扇状态 看 Airflow Direction: Power-to-port
 <td>WinOF-5_50_54000</td>
 <td>Win2019&#x2F;2022</td>
 <td>2020-6-23</td>
-<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/netcard/%E8%BF%88%E7%BB%9C%E6%80%9DMellanox%2040G%E7%BD%91%E5%8D%A1/MLNX_VPI_WinOF-5_50_53000_All_Win2016_x64.exe">MLNX_VPI_WinOF-5_50_54000_All_win2019_x64.exe</a></td>
+<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/netcard/%E8%BF%88%E7%BB%9C%E6%80%9DMellanox%2040G%E7%BD%91%E5%8D%A1/MLNX_VPI_WinOF-5_50_54000_All_win2019_x64.exe">MLNX_VPI_WinOF-5_50_54000_All_win2019_x64.exe</a></td>
 </tr>
 </tbody></table>
 <h3 id="迈络思Mellanox-100G网卡"><a href="#迈络思Mellanox-100G网卡" class="headerlink" title="迈络思Mellanox 100G网卡"></a>迈络思Mellanox 100G网卡</h3><p>官网下载地址：</p>
@@ -743,7 +743,7 @@ display fan  //查看风扇状态 看 Airflow Direction: Power-to-port
 <td>WinOF-2-3_10_52010</td>
 <td>Win2016&#x2F;2019&#x2F;2022</td>
 <td>2023-7-10</td>
-<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/netcard/%E8%BF%88%E7%BB%9C%E6%80%9DMellanox%20100G%E7%BD%91%E5%8D%A1/MLNX_WinOF2-24_7_50000_All_x64.exe">MLNX_WinOF2-3_10_52010_All_x64.exe</a></td>
+<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/netcard/%E8%BF%88%E7%BB%9C%E6%80%9DMellanox%20100G%E7%BD%91%E5%8D%A1/MLNX_WinOF2-3_10_52010_All_x64.exe">MLNX_WinOF2-3_10_52010_All_x64.exe</a></td>
 </tr>
 </tbody></table>
 <h3 id="Intel-40G-网卡驱动"><a href="#Intel-40G-网卡驱动" class="headerlink" title="Intel 40G 网卡驱动"></a>Intel 40G 网卡驱动</h3><p>官网下载地址：</p>
