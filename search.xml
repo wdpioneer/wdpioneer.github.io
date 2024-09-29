@@ -73,55 +73,6 @@
       </tags>
   </entry>
   <entry>
-    <title>H3C交换机技术文档</title>
-    <url>/2024/09/23/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3_%E4%BA%A4%E6%8D%A2%E6%9C%BA%E7%9B%B8%E5%85%B3_H3C%E4%BA%A4%E6%8D%A2%E6%9C%BA/</url>
-    <content><![CDATA[<h2 id="升级固件"><a href="#升级固件" class="headerlink" title="升级固件"></a>升级固件</h2><h3 id="1-连接交换机"><a href="#1-连接交换机" class="headerlink" title="1. 连接交换机"></a>1. 连接交换机</h3><p>   找一台电脑或笔记本 插上console调试线（安装好驱动） 下载远程工具”<a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/tools/%E5%85%B6%E4%BB%96%E5%B7%A5%E5%85%B7/putty.exe">putty.exe</a>“ 打开<br>   Serial line： <font color="red">COM6</font>  (先查看设备管理器 是COM6) ，speed: <font color="red">9600</font>，connection type选择 <font color="red">Serial</font>  ， 最后点open</p>
-<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/111.png" alt="111"></p>
-<h3 id="2-格式化flash"><a href="#2-格式化flash" class="headerlink" title="2. 格式化flash"></a>2. 格式化flash</h3><p>   交换机通电  在putty软件的控制台 按<font color="red">Ctrl+b</font> 出现下面画面 </p>
-<pre><code>按Ctrl + b 出现下面画面  
-按Ctrl + F    //格式化flash
- Y    回车
-格式化完后
-选择“1” 下载文件到flash
-</code></pre>
-<p>   <img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/4.png" alt="4"></p>
-<h3 id="3-设置ip和tftp软件"><a href="#3-设置ip和tftp软件" class="headerlink" title="3. 设置ip和tftp软件"></a>3. 设置ip和tftp软件</h3><p>   下载最新的固件包<a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/switch/H3C/S6800-54QF-h3/S6800-CMW710-R6715.rar">S6800-CMW710-R6715</a>  并解压， 运行<font color="red">“TftpServer.exe” </font>点右侧的浏览设置好ipe文件的路径</p>
-<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/image-20240927150339881.png" alt="image-20240927150339881"></p>
-<p>在putty控制台 输<font color="red">“1”</font>回车 （ “set tftp protocol parameters”）</p>
-<p>在load file name 的地方 输入：<font color="red"> r6715.ipe</font> 回车</p>
-<p>这个时候 会出现server IP address ：192.168.0.30  (某一个ip)  按照下图指示 给电脑的网卡添加前面显示的地址（ip添加好后 重新运行一下tftpserver软件）</p>
-<p>弄一个网线 连接电脑网卡和交换机console上面那个的<font color="red">“mgmt”</font>口</p>
-<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/image-20240928035442373.png" alt="image-20240928035442373"></p>
-<p> 在控制台按<font color="red">4次回车</font> , 选 <font color="red">“Y”</font> 回车,开始下载文件</p>
-<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/6.png" alt="6"></p>
-<p>   等文件下载完后 会提示 “Please input the file attribute (Main&#x2F;Backup&#x2F;none)”  :输入<font color="red">“ m ”</font>回车 等待写入flash完成<br><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/7.png" alt="7"></p>
-<p>升级完成 重启交换机后 按<font color="red">“Ctrl+C ”</font><br><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/8.png" alt="8"></p>
-<h3 id="5-设置交换机"><a href="#5-设置交换机" class="headerlink" title="5. 设置交换机"></a>5. 设置交换机</h3><p>   <font color="red">关闭生成树</font> 和 <font color="red">设置风扇风道</font></p>
-<pre><code> system-view     // 进入视窗模式
- undo stp global enable       //关闭生成树
- dis stp       // 显示 Protocol status    : Disabled  就是关闭成功
- write    回车   //  保存配置  
- exit  回车
- reboot 回车  // 重启机器 先要用exit退出视窗模式
- y     回车 
-  
-如果出现风扇异常报警 
-输入命令 
-display fan  //查看风扇状态 看 Airflow Direction: Power-to-port
-输入
- fan prefer-direction slot 1 port-to-power / fan prefer-direction slot 1 power-to-port     //修改风扇的风道
-</code></pre>
-<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/1.png" alt="1"></p>
-]]></content>
-      <categories>
-        <category>技术文档</category>
-        <category>交换机相关</category>
-      </categories>
-      <tags>
-        <tag>技术文档</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>常用软件下载</title>
     <url>/2024/09/23/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/</url>
     <content><![CDATA[<h3 id="检测工具"><a href="#检测工具" class="headerlink" title="检测工具"></a>检测工具</h3><table>
@@ -259,6 +210,55 @@ display fan  //查看风扇状态 看 Airflow Direction: Power-to-port
       </tags>
   </entry>
   <entry>
+    <title>H3C交换机技术文档</title>
+    <url>/2024/09/23/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3_%E4%BA%A4%E6%8D%A2%E6%9C%BA%E7%9B%B8%E5%85%B3_H3C%E4%BA%A4%E6%8D%A2%E6%9C%BA/</url>
+    <content><![CDATA[<h2 id="升级固件"><a href="#升级固件" class="headerlink" title="升级固件"></a>升级固件</h2><h3 id="1-连接交换机"><a href="#1-连接交换机" class="headerlink" title="1. 连接交换机"></a>1. 连接交换机</h3><p>   找一台电脑或笔记本 插上console调试线（安装好驱动） 下载远程工具”<a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/tools/%E5%85%B6%E4%BB%96%E5%B7%A5%E5%85%B7/putty.exe">putty.exe</a>“ 打开<br>   Serial line： <font color="red">COM6</font>  (先查看设备管理器 是COM6) ，speed: <font color="red">9600</font>，connection type选择 <font color="red">Serial</font>  ， 最后点open</p>
+<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/111.png" alt="111"></p>
+<h3 id="2-格式化flash"><a href="#2-格式化flash" class="headerlink" title="2. 格式化flash"></a>2. 格式化flash</h3><p>   交换机通电  在putty软件的控制台 按<font color="red">Ctrl+b</font> 出现下面画面 </p>
+<pre><code>按Ctrl + b 出现下面画面  
+按Ctrl + F    //格式化flash
+ Y    回车
+格式化完后
+选择“1” 下载文件到flash
+</code></pre>
+<p>   <img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/4.png" alt="4"></p>
+<h3 id="3-设置ip和tftp软件"><a href="#3-设置ip和tftp软件" class="headerlink" title="3. 设置ip和tftp软件"></a>3. 设置ip和tftp软件</h3><p>   下载最新的固件包<a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/switch/H3C/S6800-54QF-h3/S6800-CMW710-R6715.rar">S6800-CMW710-R6715</a>  并解压， 运行<font color="red">“TftpServer.exe” </font>点右侧的浏览设置好ipe文件的路径</p>
+<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/image-20240927150339881.png" alt="image-20240927150339881"></p>
+<p>在putty控制台 输<font color="red">“1”</font>回车 （ “set tftp protocol parameters”）</p>
+<p>在load file name 的地方 输入：<font color="red"> r6715.ipe</font> 回车</p>
+<p>这个时候 会出现server IP address ：192.168.0.30  (某一个ip)  按照下图指示 给电脑的网卡添加前面显示的地址（ip添加好后 重新运行一下tftpserver软件）</p>
+<p>弄一个网线 连接电脑网卡和交换机console上面那个的<font color="red">“mgmt”</font>口</p>
+<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/image-20240928035442373.png" alt="image-20240928035442373"></p>
+<p> 在控制台按<font color="red">4次回车</font> , 选 <font color="red">“Y”</font> 回车,开始下载文件</p>
+<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/6.png" alt="6"></p>
+<p>   等文件下载完后 会提示 “Please input the file attribute (Main&#x2F;Backup&#x2F;none)”  :输入<font color="red">“ m ”</font>回车 等待写入flash完成<br><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/7.png" alt="7"></p>
+<p>升级完成 重启交换机后 按<font color="red">“Ctrl+C ”</font><br><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/8.png" alt="8"></p>
+<h3 id="5-设置交换机"><a href="#5-设置交换机" class="headerlink" title="5. 设置交换机"></a>5. 设置交换机</h3><p>   <font color="red">关闭生成树</font> 和 <font color="red">设置风扇风道</font></p>
+<pre><code> system-view     // 进入视窗模式
+ undo stp global enable       //关闭生成树
+ dis stp       // 显示 Protocol status    : Disabled  就是关闭成功
+ write    回车   //  保存配置  
+ exit  回车
+ reboot 回车  // 重启机器 先要用exit退出视窗模式
+ y     回车 
+  
+如果出现风扇异常报警 
+输入命令 
+display fan  //查看风扇状态 看 Airflow Direction: Power-to-port
+输入
+ fan prefer-direction slot 1 port-to-power / fan prefer-direction slot 1 power-to-port     //修改风扇的风道
+</code></pre>
+<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/1.png" alt="1"></p>
+]]></content>
+      <categories>
+        <category>技术文档</category>
+        <category>交换机相关</category>
+      </categories>
+      <tags>
+        <tag>技术文档</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>华为交换机技术文档</title>
     <url>/2024/09/23/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3_%E4%BA%A4%E6%8D%A2%E6%9C%BA%E7%9B%B8%E5%85%B3_%E5%8D%8E%E4%B8%BA%E4%BA%A4%E6%8D%A2%E6%9C%BA/</url>
     <content><![CDATA[]]></content>
@@ -301,8 +301,8 @@ display fan  //查看风扇状态 看 Airflow Direction: Power-to-port
 <p>回写盘，镜像盘都是默认格式化就可以了。</p>
 <p>可以用命令看是不是64K格式化的。在CMD界面输入下面的命令回车，E：可以改成你需要看的硬盘的盘符</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">fsutil fsinfo ntfsinfo E:</span><br></pre></td></tr></table></figure>
-<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/20240802214618.jpg" alt="img"></p>
-<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/20240802214659.jpg" alt="img"></p>
+<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/image-20240930030351408.png" alt="image-20240930030351408"></p>
+<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/image-20240930030418814.png" alt="image-20240930030418814"></p>
 <h3 id="系统自带格式化"><a href="#系统自带格式化" class="headerlink" title="系统自带格式化"></a>系统自带格式化</h3><pre><code>打开计算机管理---&gt;存储---&gt;磁盘管理  选择要格式化的硬盘 分配单元大小 选择“64K”
 </code></pre>
 <p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/image-20240926012231283.png" alt="image-20240926012231283"></p>
@@ -325,7 +325,7 @@ display fan  //查看风扇状态 看 Airflow Direction: Power-to-port
 <p>先下载<a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/tools/U%E7%9B%98PE%E7%B3%BB%E7%BB%9F/rufus-4.5.exe">rufus-4.5.exe</a>。</p>
 <p>然后插入U盘后可以安装FreeDOS或者MS-DOS，两个都没问题，如下图：</p>
 <p>前者FreeDOS可Uefi启动支持intel 9代以后的机器。后者是比较出名用的是MS-DOS7.1这个系统比较经典毕竟微软自家的但不支持Uefi启动。</p>
-<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/20240809115141.jpg" alt="img"></p>
+<p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/image-20240930030529227.png" alt="image-20240930030529227"></p>
 <h3 id="U盘制作WIN11-PE系统盘"><a href="#U盘制作WIN11-PE系统盘" class="headerlink" title="U盘制作WIN11 PE系统盘"></a>U盘制作WIN11 PE系统盘</h3><p>先下载小兵U盘安装文件<a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/tools/U%E7%9B%98PE%E7%B3%BB%E7%BB%9F/xbonekeyV2024.exe">xbonekeyV2024.exe</a></p>
 <p>然后插入U盘 运行安装程序 选择U盘启动—-&gt;制作启动U盘</p>
 <p><img src="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/image/image-20240930013935756.png" alt="image-20240930013935756"></p>
