@@ -359,18 +359,6 @@
       </tags>
   </entry>
   <entry>
-    <title>超微服务器文档</title>
-    <url>/2024/09/23/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3_%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9B%B8%E5%85%B3_%E8%B6%85%E5%BE%AE/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>技术文档</category>
-        <category>服务器相关</category>
-      </categories>
-      <tags>
-        <tag>服务器文档</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>月盾服务器</title>
     <url>/2024/09/25/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3_%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9B%B8%E5%85%B3_%E6%9C%88%E7%9B%BE/</url>
     <content><![CDATA[<h2 id="月盾8801服务器"><a href="#月盾8801服务器" class="headerlink" title="月盾8801服务器"></a>月盾8801服务器</h2><p>前言：<br>8801服务器 通电后 开关按钮会黄灯闪烁（自检）几分钟后等黄灯常亮 就可以按开关键开机<br>如果只插一根电源线 开关右侧的灯会显示红色（不影响使用）</p>
@@ -405,6 +393,18 @@
       </categories>
       <tags>
         <tag>月盾服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>超微服务器文档</title>
+    <url>/2024/09/23/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3_%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9B%B8%E5%85%B3_%E8%B6%85%E5%BE%AE/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>技术文档</category>
+        <category>服务器相关</category>
+      </categories>
+      <tags>
+        <tag>服务器文档</tag>
       </tags>
   </entry>
   <entry>
@@ -582,6 +582,124 @@
       </tags>
   </entry>
   <entry>
+    <title>服务器驱动下载</title>
+    <url>/2024/09/25/%E9%A9%B1%E5%8A%A8%E4%B8%8B%E8%BD%BD_%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+    <content><![CDATA[<h3 id="月盾8801服务器驱动"><a href="#月盾8801服务器驱动" class="headerlink" title="月盾8801服务器驱动"></a>月盾8801服务器驱动</h3><hr>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>型号</th>
+<th>版本号</th>
+<th>发布时间</th>
+<th>下载地址</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>显卡驱动</td>
+<td>Aspeed AST2400&#x2F;AST2500&#x2F;AST2600</td>
+<td>v1.12&#x2F; 1.14&#x2F;1.15</td>
+<td>2021-12-22</td>
+<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/server/8801/ASPEED.zip">ASPEED.zip</a></td>
+</tr>
+<tr>
+<td>主板驱动</td>
+<td>英特尔 C62x&#x2F;C240 系列芯片组驱动</td>
+<td>10.1.19485.8386</td>
+<td>2023-11-03</td>
+<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/server/8801/Chipset-v10.1.19485.8386.zip">Chipset-v10.1.19485.8386.zip</a></td>
+</tr>
+</tbody></table>
+<h3 id="华硕KRPA-U16主板驱动"><a href="#华硕KRPA-U16主板驱动" class="headerlink" title="华硕KRPA-U16主板驱动"></a>华硕KRPA-U16主板驱动</h3><hr>
+<p>官网下载地址：<br><a href="https://servers.asus.com.cn/products/servers/server-motherboards/KRPA-U16#Resources">https://servers.asus.com.cn/products/servers/server-motherboards/KRPA-U16#Resources</a></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>型号</th>
+<th>版本号</th>
+<th>发布时间</th>
+<th>下载地址</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>显卡驱动</td>
+<td>Aspeed AST2500&#x2F;AST2600</td>
+<td>v1.12&#x2F; 1.14&#x2F;1.15</td>
+<td>2021-10-18</td>
+<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/server/krpa-u16/ASPEED_AST2500_AST2600_V1.12.zip">ASPEED_AST2500_AST2600_V1.12.zip</a></td>
+</tr>
+<tr>
+<td>主板驱动</td>
+<td>AMD芯片组驱动</td>
+<td>V2.18.30.202</td>
+<td>2023-11-03</td>
+<td><a href="https://share.weiyun.com/CNmP6Peb">AMD_Chipset_Drivers_V2.18.30.202</a></td>
+</tr>
+</tbody></table>
+<h3 id="超微X10主板驱动"><a href="#超微X10主板驱动" class="headerlink" title="超微X10主板驱动"></a>超微X10主板驱动</h3><hr>
+<p>适用主板类型：DRD-INT&#x2F;X10DRD-LTP&#x2F;X10DRD-DRN<br>官网下载地址：<a href="https://www.supermicro.org.cn/zh_tw/products/motherboard/X10DRD-iNT">https://www.supermicro.org.cn/zh_tw/products/motherboard/X10DRD-iNT</a></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>型号</th>
+<th>版本号</th>
+<th>发布时间</th>
+<th>下载地址</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>显卡驱动</td>
+<td>Aspeed AST2400&#x2F;AST2500&#x2F;AST2600</td>
+<td>v1.12&#x2F; 1.14&#x2F;1.15</td>
+<td>2021-12-22</td>
+<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/server/8801/ASPEED.zip">ASPEED.zip</a></td>
+</tr>
+<tr>
+<td>主板驱动</td>
+<td>英特尔 C612 系列芯片组驱动</td>
+<td>6.1.0.1247</td>
+<td>2023-11-03</td>
+<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/server/x10/IATA_CD6.1.0.1247.exe">IATA_CD6.1.0.1247.exe</a></td>
+</tr>
+</tbody></table>
+<h3 id="超微X11主板驱动"><a href="#超微X11主板驱动" class="headerlink" title="超微X11主板驱动"></a>超微X11主板驱动</h3><hr>
+<p>官网下载地址：<br><a href="https://www.supermicro.org.cn/zh_tw/products/motherboard/X11DAi-N">https://www.supermicro.org.cn/zh_tw/products/motherboard/X11DAi-N</a></p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>型号</th>
+<th>版本号</th>
+<th>发布时间</th>
+<th>下载地址</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>显卡驱动</td>
+<td>Aspeed AST2400&#x2F;AST2500&#x2F;AST2600</td>
+<td>v1.12&#x2F; 1.14&#x2F;1.15</td>
+<td>2021-12-22</td>
+<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/server/8801/ASPEED.zip">ASPEED.zip</a></td>
+</tr>
+<tr>
+<td>主板驱动</td>
+<td>英特尔 C62x&#x2F;C240 系列芯片组驱动</td>
+<td>10.1.19485.8386</td>
+<td>2023-11-03</td>
+<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/server/8801/Chipset-v10.1.19485.8386.zip">Chipset-v10.1.19485.8386.zip</a></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>服务器驱动下载</category>
+      </categories>
+      <tags>
+        <tag>服务器驱动</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>网卡驱动下载</title>
     <url>/2024/09/25/%E9%A9%B1%E5%8A%A8%E4%B8%8B%E8%BD%BD_%E7%BD%91%E5%8D%A1/</url>
     <content><![CDATA[<h3 id="迈络思Mellanox-40G网卡"><a href="#迈络思Mellanox-40G网卡" class="headerlink" title="迈络思Mellanox 40G网卡"></a>迈络思Mellanox 40G网卡</h3><p>官网下载地址：</p>
@@ -698,124 +816,6 @@
       </categories>
       <tags>
         <tag>网卡驱动</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>服务器驱动下载</title>
-    <url>/2024/09/25/%E9%A9%B1%E5%8A%A8%E4%B8%8B%E8%BD%BD_%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
-    <content><![CDATA[<h3 id="月盾8801服务器驱动"><a href="#月盾8801服务器驱动" class="headerlink" title="月盾8801服务器驱动"></a>月盾8801服务器驱动</h3><hr>
-<table>
-<thead>
-<tr>
-<th>类型</th>
-<th>型号</th>
-<th>版本号</th>
-<th>发布时间</th>
-<th>下载地址</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>显卡驱动</td>
-<td>Aspeed AST2400&#x2F;AST2500&#x2F;AST2600</td>
-<td>v1.12&#x2F; 1.14&#x2F;1.15</td>
-<td>2021-12-22</td>
-<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/server/8801/ASPEED.zip">ASPEED.zip</a></td>
-</tr>
-<tr>
-<td>主板驱动</td>
-<td>英特尔 C62x&#x2F;C240 系列芯片组驱动</td>
-<td>10.1.19485.8386</td>
-<td>2023-11-03</td>
-<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/server/8801/Chipset-v10.1.19485.8386.zip">Chipset-v10.1.19485.8386.zip</a></td>
-</tr>
-</tbody></table>
-<h3 id="华硕KRPA-U16主板驱动"><a href="#华硕KRPA-U16主板驱动" class="headerlink" title="华硕KRPA-U16主板驱动"></a>华硕KRPA-U16主板驱动</h3><hr>
-<p>官网下载地址：<br><a href="https://servers.asus.com.cn/products/servers/server-motherboards/KRPA-U16#Resources">https://servers.asus.com.cn/products/servers/server-motherboards/KRPA-U16#Resources</a></p>
-<table>
-<thead>
-<tr>
-<th>类型</th>
-<th>型号</th>
-<th>版本号</th>
-<th>发布时间</th>
-<th>下载地址</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>显卡驱动</td>
-<td>Aspeed AST2500&#x2F;AST2600</td>
-<td>v1.12&#x2F; 1.14&#x2F;1.15</td>
-<td>2021-10-18</td>
-<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/server/krpa-u16/ASPEED_AST2500_AST2600_V1.12.zip">ASPEED_AST2500_AST2600_V1.12.zip</a></td>
-</tr>
-<tr>
-<td>主板驱动</td>
-<td>AMD芯片组驱动</td>
-<td>V2.18.30.202</td>
-<td>2023-11-03</td>
-<td><a href="https://share.weiyun.com/CNmP6Peb">AMD_Chipset_Drivers_V2.18.30.202</a></td>
-</tr>
-</tbody></table>
-<h3 id="超微X10主板驱动"><a href="#超微X10主板驱动" class="headerlink" title="超微X10主板驱动"></a>超微X10主板驱动</h3><hr>
-<p>适用主板类型：DRD-INT&#x2F;X10DRD-LTP&#x2F;X10DRD-DRN<br>官网下载地址：<a href="https://www.supermicro.org.cn/zh_tw/products/motherboard/X10DRD-iNT">https://www.supermicro.org.cn/zh_tw/products/motherboard/X10DRD-iNT</a></p>
-<table>
-<thead>
-<tr>
-<th>类型</th>
-<th>型号</th>
-<th>版本号</th>
-<th>发布时间</th>
-<th>下载地址</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>显卡驱动</td>
-<td>Aspeed AST2400&#x2F;AST2500&#x2F;AST2600</td>
-<td>v1.12&#x2F; 1.14&#x2F;1.15</td>
-<td>2021-12-22</td>
-<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/server/8801/ASPEED.zip">ASPEED.zip</a></td>
-</tr>
-<tr>
-<td>主板驱动</td>
-<td>英特尔 C612 系列芯片组驱动</td>
-<td>6.1.0.1247</td>
-<td>2023-11-03</td>
-<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/server/x10/IATA_CD6.1.0.1247.exe">IATA_CD6.1.0.1247.exe</a></td>
-</tr>
-</tbody></table>
-<h3 id="超微X11主板驱动"><a href="#超微X11主板驱动" class="headerlink" title="超微X11主板驱动"></a>超微X11主板驱动</h3><hr>
-<p>官网下载地址：<br><a href="https://www.supermicro.org.cn/zh_tw/products/motherboard/X11DAi-N">https://www.supermicro.org.cn/zh_tw/products/motherboard/X11DAi-N</a></p>
-<table>
-<thead>
-<tr>
-<th>类型</th>
-<th>型号</th>
-<th>版本号</th>
-<th>发布时间</th>
-<th>下载地址</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>显卡驱动</td>
-<td>Aspeed AST2400&#x2F;AST2500&#x2F;AST2600</td>
-<td>v1.12&#x2F; 1.14&#x2F;1.15</td>
-<td>2021-12-22</td>
-<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/server/8801/ASPEED.zip">ASPEED.zip</a></td>
-</tr>
-<tr>
-<td>主板驱动</td>
-<td>英特尔 C62x&#x2F;C240 系列芯片组驱动</td>
-<td>10.1.19485.8386</td>
-<td>2023-11-03</td>
-<td><a href="https://wwhome-1305683220.cos.ap-nanjing.myqcloud.com/driver/server/8801/Chipset-v10.1.19485.8386.zip">Chipset-v10.1.19485.8386.zip</a></td>
-</tr>
-</tbody></table>
-]]></content>
-      <categories>
-        <category>服务器驱动下载</category>
-      </categories>
-      <tags>
-        <tag>服务器驱动</tag>
       </tags>
   </entry>
 </search>
